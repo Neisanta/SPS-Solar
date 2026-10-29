@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPS Solar | Energia Solar</title>
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-solar-panel highlight-text"></i> SPS <span class="highlight-text">Solar</span>
+            </div>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#problema">Problema</a></li>
+                    <li><a href="#solucao">Solução</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#simulacao">Simulador</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#contato" class="btn btn-green hidden-mobile">Orçamento Grátis</a>
+            
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-in">Reduza sua conta de energia em até <span class="highlight-text">90%</span></h1>
+            <p class="fade-in delay-1">O sol é a fonte de energia mais limpa e barata do planeta. Gere sua própria eletricidade, valorize seu imóvel e fuja dos aumentos da tarifa de energia elétrica.</p>
+            <div class="hero-buttons fade-in delay-2">
+                <a href="#contato" class="btn btn-green"><i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento Grátis</a>
+                <a href="#simulacao" class="btn btn-yellow">Simular Economia</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="problema" class="section section-light">
+        <div class="container center-text">
+            <h2 class="section-title reveal">Sua conta de energia está <span class="danger-text">fora de controle?</span></h2>
+            <div class="grid grid-3">
+                <div class="card card-white reveal">
+                    <div class="icon-wrapper danger-text"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                    <h3>Conta aumentando</h3>
+                    <p>A energia elétrica no Brasil sofre reajustes constantes acima da inflação todo ano.</p>
+                </div>
+                <div class="card card-white reveal delay-1">
+                    <div class="icon-wrapper danger-text"><i class="fa-solid fa-flag"></i></div>
+                    <h3>Bandeiras tarifárias</h3>
+                    <p>Falta de chuvas significa acréscimos absurdos na sua conta de luz sem aviso prévio.</p>
+                </div>
+                <div class="card card-white reveal delay-2">
+                    <div class="icon-wrapper danger-text"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                    <h3>Dinheiro jogado fora</h3>
+                    <p>Você paga "aluguel" da energia. Um dinheiro que nunca mais volta para o seu bolso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucao" class="section section-dark">
+        <div class="container center-text">
+            <h2 class="section-title reveal">Energia solar é a <span class="highlight-text">resposta</span></h2>
+            <p class="subtitle reveal">O investimento com o melhor e mais seguro retorno para você.</p>
+            <div class="grid grid-3">
+                <div class="card card-dark reveal">
+                    <div class="icon-wrapper highlight-text"><i class="fa-solid fa-house-chimney-crack"></i></div>
+                    <h3>Geração Própria</h3>
+                    <p>Produza sua própria energia e seja imune às flutuações e crises do mercado de energia.</p>
+                </div>
+                <div class="card card-dark reveal delay-1">
+                    <div class="icon-wrapper highlight-text"><i class="fa-solid fa-piggy-bank"></i></div>
+                    <h3>Economia de 90%</h3>
+                    <p>Reduza sua fatura apenas à taxa mínima obrigatória da concessionária local.</p>
+                </div>
+                <div class="card card-dark reveal delay-2">
+                    <div class="icon-wrapper highlight-text"><i class="fa-solid fa-arrow-up-right-dots"></i></div>
+                    <h3>Valorização</h3>
+                    <p>Casas com energia solar chegam a valorizar até 10% no mercado imobiliário.</p>
+                </div>
+            </div>
+            <a href="#contato" class="btn btn-green btn-large mt-2 reveal"><i class="fa-solid fa-bolt"></i> Quero economizar agora</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="section section-light">
+        <div class="container grid grid-2 align-center">
+            <div class="sobre-text reveal">
+                <h2 class="section-title text-left">Confiança e <span class="highlight-text">excelência</span> em energia solar</h2>
+                <p>A SPS Solar trabalha com as melhores marcas e profissionais do mercado para garantir que seu sistema funcione com máxima eficiência por décadas.</p>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-check-circle cta-text"></i> Equipamentos Premium Tier 1</li>
+                    <li><i class="fa-solid fa-check-circle cta-text"></i> Instalação rápida e sem dor de cabeça</li>
+                    <li><i class="fa-solid fa-check-circle cta-text"></i> Monitoramento do sistema via app</li>
+                </ul>
+            </div>
+            <div class="metrics-grid reveal delay-1">
+                <div class="metric-card">
+                    <div class="metric-number highlight-text"><span class="counter" data-target="70">0</span>+</div>
+                    <p>Projetos Instalados</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number highlight-text"><span class="counter" data-target="100">0</span>%</div>
+                    <p>Satisfação</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number highlight-text"><span class="counter" data-target="25">0</span></div>
+                    <p>Anos de Vida Útil</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number highlight-text"><span class="counter" data-target="90">0</span>%</div>
+                    <p>Economia Média</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section section-gray">
+    <div class="container center-text">
+        <h2 class="section-title reveal">Projetos e Feedbacks Reais</h2>
+        <p class="subtitle-dark reveal">Instalações reais com resultados comprovados em toda a região.</p>
+
+        <!-- Projetos Técnicos do PDF -->
+        <div class="grid grid-2 mt-2 mb-4">
+
+            <div class="tech-project-card reveal">
+                <div class="tech-project-badge">Cliente #0049</div>
+                <div class="project-img" style="background-image: url('img/img6.png');"></div>
+                <div class="tech-project-content">
+                    <div class="tech-project-header">
+                        <h3>Projeto Comercial — Cubatão/SP</h3>
+                        <span class="tech-type-badge">Autoconsumo Retorno</span>
+                    </div>
+                    <div class="tech-specs-grid">
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-solar-panel highlight-text"></i>
+                            <div>
+                                <strong>26,40 kWp</strong>
+                                <span>Potência instalada</span>
+                            </div>
+                        </div>
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-bolt highlight-text"></i>
+                            <div>
+                                <strong>~2.500 kWh/mês</strong>
+                                <span>Geração estimada</span>
+                            </div>
+                        </div>
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-layer-group highlight-text"></i>
+                            <div>
+                                <strong>48 módulos 550 Wp</strong>
+                                <span>Painéis fotovoltaicos</span>
+                            </div>
+                        </div>
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-microchip highlight-text"></i>
+                            <div>
+                                <strong>12 microinversores</strong>
+                                <span>Bel Energy 2 kW cada</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-economy-bar">
+                        <div class="eco-item">
+                            <p>Economia Mensal</p>
+                            <h4 class="cta-text">R$ 2.500,00</h4>
+                        </div>
+                        <div class="eco-divider"></div>
+                        <div class="eco-item">
+                            <p>Economia Anual</p>
+                            <h4 class="cta-text">R$ 30.000,00</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-project-card reveal delay-1">
+                <div class="tech-project-badge">Cliente #0143</div>
+                <div class="project-img" style="background-image: url('img/img5.png');"></div>
+                <div class="tech-project-content">
+                    <div class="tech-project-header">
+                        <h3>Projeto Comercial — Cubatão/SP</h3>
+                        <span class="tech-type-badge">Autoconsumo Remoto</span>
+                    </div>
+                    <div class="tech-specs-grid">
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-solar-panel highlight-text"></i>
+                            <div>
+                                <strong>39,60 kWp</strong>
+                                <span>Potência instalada</span>
+                            </div>
+                        </div>
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-bolt highlight-text"></i>
+                            <div>
+                                <strong>~3.860 kWh/mês</strong>
+                                <span>Geração estimada</span>
+                            </div>
+                        </div>
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-layer-group highlight-text"></i>
+                            <div>
+                                <strong>72 módulos 550 Wp</strong>
+                                <span>Painéis fotovoltaicos</span>
+                            </div>
+                        </div>
+                        <div class="tech-spec">
+                            <i class="fa-solid fa-microchip highlight-text"></i>
+                            <div>
+                                <strong>18 microinversores</strong>
+                                <span>Bel Energy 2 kW cada</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-economy-bar">
+                        <div class="eco-item">
+                            <p>Economia Mensal</p>
+                            <h4 class="cta-text">R$ 3.800,00</h4>
+                        </div>
+                        <div class="eco-divider"></div>
+                        <div class="eco-item">
+                            <p>Economia Anual</p>
+                            <h4 class="cta-text">R$ 45.000,00</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Depoimentos de clientes -->
+        <h3 class="depoimentos-title reveal">O que nossos clientes dizem</h3>
+        <div class="grid grid-3 mt-2">
+            
+            <div class="project-card reveal">
+                <div class="project-img" style="background-image: url('img/img4.jpg');"></div>
+                <div class="project-content">
+                    <div class="stars highlight-text">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review">"Excelente experiência! Equipe profissional e pontual. O Diretor Ricardo acompanha desde o orçamento até o pós-venda, demonstrando total expertise."</p>
+                    <p class="author"><strong>Wander Andrade</strong><br>Cliente Satisfeito</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal delay-1">
+                <div class="project-img" style="background-image: url('img/img3.jpg');"></div>
+                <div class="project-content">
+                    <div class="stars highlight-text">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review">"Empresa de muita organização e responsabilidade. Executaram o trabalho à risca conforme todo o escopo e projeto apresentado. Recomendo demais!"</p>
+                    <p class="author"><strong>Evandro Santos</strong><br>Projeto Solar</p>
+                </div>
+            </div>
+
+            <div class="project-card reveal delay-2">
+                <div class="project-img" style="background-image: url('./img/img2.jpg');"></div>
+                <div class="project-content">
+                    <div class="stars highlight-text">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review">"Nota 10! Serviço de altíssima qualidade e muita pontualidade. Recomendo a SPS para quem busca eficiência em energia renovável."</p>
+                    <p class="author"><strong>Thiago PF</strong><br>Instalação Rápida</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section class="section section-dark">
+        <div class="container center-text">
+            <h2 class="section-title reveal">Veja a diferença no seu bolso</h2>
+            <p class="subtitle reveal">Projeção estimada de aumento tarifário (vermelho) vs tarifa mínima (verde) ao longo de 12 meses.</p>
+            <div class="chart-container reveal delay-1">
+                <canvas id="economiaChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulacao" class="section section-light">
+        <div class="container center-text">
+            <h2 class="section-title reveal">Quanto você pode <span class="highlight-text">economizar?</span></h2>
+            <p class="subtitle reveal">Faça uma simulação rápida e descubra.</p>
+            
+            <div class="simulator-box reveal delay-1">
+                <div class="input-group">
+                    <label for="contaValor">Qual o valor médio da sua conta de luz mensal?</label>
+                    <div class="input-prefix">
+                        <span>R$</span>
+                        <input type="number" id="contaValor" placeholder="Ex: 500" min="100">
+                    </div>
+                </div>
+                <button id="btnSimular" class="btn btn-yellow btn-full">Calcular Economia</button>
+                
+                <div id="simuladorResultado" class="resultado-box hide">
+                    <div class="res-item">
+                        <p>Economia Mensal Estimada:</p>
+                        <h3 class="cta-text" id="ecoMensal">R$ 0,00</h3>
+                    </div>
+                    <div class="res-item">
+                        <p>Economia em 1 Ano:</p>
+                        <h3 class="cta-text" id="ecoAnual">R$ 0,00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section final-cta">
+        <div class="container center-text reveal">
+            <h2 class="section-title text-dark">Descubra quanto você pode <span class="highlight-text">economizar</span></h2>
+            <p class="text-dark mb-2">Fale com um de nossos especialistas e receba um estudo de viabilidade gratuito para o seu imóvel.</p>
+            <a href="https://wa.me/5513996392111?text=Olá%2C%20vim%20pelo%20site%20da%20SPS%20Solar%20e%20gostaria%20de%20mais%20informações%20sobre%20energia%20solar." target="_blank" class="btn btn-green btn-large pulse-anim"><i class="fa-brands fa-whatsapp"></i> Solicitar Simulação via WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-solar-panel highlight-text"></i> SPS <span class="highlight-text">Solar</span>
+                <p>&copy; 2026 SPS Solar. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#problema">Problema</a></li>
+                    <li><a href="#solucao">Solução</a></li>
+                    <li><a href="#simulacao">Simulador</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Fale Conosco</h4>
+                <p><i class="fa-brands fa-whatsapp highlight-text"></i> (13) 99639-2111</p>
+                <p><i class="fa-solid fa-envelope highlight-text"></i> contato@spssolar.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="offerModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-icon highlight-text"><i class="fa-solid fa-sun"></i></div>
+            <h2>Espere! Oferta Especial</h2>
+            <p>Somente <strong class="danger-text">5 vagas</strong> com desconto exclusivo para instalação de energia solar este mês.</p>
+            <p>Garanta sua vaga antes que acabe!</p>
+            <a href="https://wa.me/5513996392111?text=Olá%2C%20vim%20pelo%20site%20da%20SPS%20Solar%20e%20gostaria%20de%20mais%20informações%20sobre%20energia%20solar." class="btn btn-green btn-full mt-1">Quero Aproveitar a Oferta</a>
+            <p class="close-text close-btn-text">Não, obrigado</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
